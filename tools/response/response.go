@@ -3,10 +3,11 @@ package response
 import (
 	"encoding/json"
 	"fmt"
-	"licore/tools/errorx"
-	"licore/tools/process"
 	"log"
 	"net/http"
+
+	"github.com/JiusLi/licore/tools/errorx"
+	"github.com/JiusLi/licore/tools/process"
 )
 
 type body struct {
